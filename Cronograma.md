@@ -11,3 +11,19 @@ Tabela 1 - Planejamento do Horizonte
 | Fazer slide                     | TODOS           | TODOS       | 09/04/2025          | 11/04/2025       | 12/04/2025          |
 | Fazer formulário                | TODOS           | TODOS       | 09/04/2025          | 18/04/2025       | 19/04/2025          |
 | Revisão Pré-Horizonte           | TODOS           | TODOS       | 12/04/2025          | 12/04/2025       | 12/04/2025          |
+
+
+<center>
+**Tabela 2** - Planejamento da Caminhada
+</center>
+
+| **Tarefa**                       | **Responsável** | **Revisor** | **Data de Início** | **Data de Fim** | **Data de Revisão** |
+|----------------------------------|-----------------|-------------|---------------------|------------------|---------------------|
+| Correção após a apresentação     | TODOS           | TODOS       | 14/04/2025          | 18/04/2025       | 19/04/2025          |
+| Enviar Formulário               | TODOS           | TODOS       | 23/04/2025          | 23/04/2025       | 24/04/2025          |
+|                                  |                 |             |                     |                  |                     |
+|                                  |                 |             |                     |                  |                     |
+|                                  |                 |             |                     |                  |                     |
+|                                  |                 |             |                     |                  |                     |
+|                                  |                 |             |                     |                  |                     |
+| Revisão Pré-Caminhada           | TODOS           | TODOS       | 18/05/2025          | 18/05/2025       | 19/05/2025          |
