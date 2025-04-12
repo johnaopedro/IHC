@@ -23,3 +23,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
+nav:
+  - Início: index.md
+  - Planejamento: 
+      - Cronograma: planejamento/cronograma.md

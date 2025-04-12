@@ -9,7 +9,7 @@
 Repositório destinado ao projeto da disciplina de Interação Humano Computador na Universidade de Brasilia (FCTE), do 1º semestre de 2025, ministrado pelo prof. Sérgio Andrade. 
 </p>
 
-## Sobre o Meu INSS
+## Sobre o AliExpress 
 
 
 <br>
