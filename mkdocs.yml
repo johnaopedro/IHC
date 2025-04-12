@@ -1,30 +1,31 @@
-site_name: AliExpress 
-
-repo_name: "2025.1-IHC-ALIEXPRESS"
-repo_url: "https://github.com/johnaopedro/IHC.git"
-site_url: "https://johnaopedro.github.io/IHC/"
-
-
-theme:
-  name: material
-  palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: red  
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: red  
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+site_name: AliExpress IHC
+site_url: https://github.com/johnaopedro/IHC
 
 nav:
-  - Início: index.md
-  - Planejamento: 
-      - Cronograma: planejamento/cronograma.md
+  - Home:
+      - Sobre: index.md
+  - Cronograma: planejamento/cronograma.md
+
+theme:
+  logo: assets/aliexpress.png
+  name: material
+  font:
+    text: IBM Plex Serif
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+  palette:
+    - scheme: light
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Trocar para modo escuro
+
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Trocar para modo claro
+icon:
+  repo: fontawesome/brands/git-alt
