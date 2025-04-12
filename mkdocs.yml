@@ -1,0 +1,25 @@
+site_name: AliExpress 
+
+repo_name: "2025.1-IHC-ALIEXPRESS"
+repo_url: "https://github.com/johnaopedro/IHC.git"
+site_url: "https://johnaopedro.github.io/IHC/"
+
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red  
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red  
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
