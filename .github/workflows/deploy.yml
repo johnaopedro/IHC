@@ -3,7 +3,7 @@ name: Deploy MkDocs
 on:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
   deploy:
@@ -13,7 +13,7 @@ jobs:
     - name: Checkout do código
       uses: actions/checkout@v3
 
-    - name: Configurar Python
+    - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
@@ -21,11 +21,11 @@ jobs:
     - name: Instalar dependências
       run: pip install mkdocs mkdocs-material
 
-    - name: Configurar Git com GITHUB_TOKEN
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+    - name: Build da documentação
+      run: mkdocs build --clean
 
-    - name: Deploy com MkDocs
-      run: mkdocs gh-deploy --force
+    - name: Deploy no GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site
