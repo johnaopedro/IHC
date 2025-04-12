@@ -9,9 +9,9 @@ Tabela 1 - Planejamento do Horizonte
 | Selecionar heurísticas          | TODOS           | TODOS       | 06/04/2025          | 12/04/2025       | 11/04/2025          |
 | Iniciar o cronograma            | TODOS           | TODOS       | 09/04/2025          | 12/04/2025       | 12/04/2025          |
 | Fazer slide                     | TODOS           | TODOS       | 09/04/2025          | 12/04/2025       | 12/04/2025          |
-| Fazer formulário                | TODOS           | TODOS       | 09/04/2025          | A definir      | A definir          |
+| Fazer formulário                | TODOS           | TODOS       | 09/04/2025          | 20/04/2025      | 21/04/2025          |
 | Revisão Pré-Horizonte           | TODOS           | TODOS       | 12/04/2025          | 12/04/2025       | 12/04/2025          |
-| Horizonte   |       14/04/2025          |
+| Horizonte   |       14/04/2025          | --------       | ------------          | ------------       | ------------         |
 
 <center>
 Tabela 2 - Planejamento da Caminhada
